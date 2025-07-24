@@ -6,3 +6,6 @@ Write a function that takes an array of numbers and returns the sum of the numbe
 function sum (numbers) {
   return numbers.reduce((acc, c) => acc + c, 0)
 }
+
+
+// first comment pushed on the new macbook :D
