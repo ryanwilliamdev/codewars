@@ -15,5 +15,5 @@ Because -2, -3, -4 need to be added to have [-5, -4, -3, -2, -1]
 // MY SOLUTION
 function consecutive(arr){
   let arrayLength = arr.length;
-  return arrayLength ? Math.max(...arr) - Math.min(...arr) - l + 1 : 0;
+  return arrayLength ? Math.max(...arr) - Math.min(...arr) - arrayLength + 1 : 0;
 }
