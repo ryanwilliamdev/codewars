@@ -8,5 +8,5 @@ Floats with decimal part non equal to zero are considered UNeven for this kata.
 
 // MY SOLUTION
 function testEven(n) {
-    return n % 2 === 0
+    return n % 2 === 0;
 }
