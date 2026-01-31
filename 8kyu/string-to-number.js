@@ -1,13 +1,17 @@
 /*
 INSTRUCTIONS
-We need a function that can transform a string into a number. What ways of achieving this do you know?
-
-Note: Don't worry, all inputs will be strings, and every string is a perfectly valid representation of an integral number.
-
+We need a function that can transform a string into a number.
 */
 
-// SOLUTION
+// MY SOLUTION
 const stringToNumber = function(str){
-  let numFromString = Number(str)
-  return numFromString;
+  return Number(str)
 }
+
+/*
+Parameters: string
+Return: convert string to number
+Example: '327' --> 327
+Pseudo Code:
+1. return string wrapped in Number() method to type convert it to an integer
+*/
